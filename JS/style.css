@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-boxs;
+}
+
+.one {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.one h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.one h1 span {
+    color: blue;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+
+}
+
+textarea::placeholder {
+    font-size: 16px;
+
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: #ff2963;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 35px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 35px;
+
+}
+
+select {
+    flex: 1;
+    color: #fff;
+    height: 35px;
+    background: #403d84;
+    padding: 0;
+    border: 0;
+    border-radius: 35px;
+    background-image: url(https://www.google.com/imgres?q=dropdown%20icons&imgurl=https%3A%2F%2Ficons.veryicon.com%2Fpng%2Fo%2Fsystem%2Fzoomlion-linear-icon%2Fdrop-down-43.png&imgrefurl=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Fsystem%2Fzoomlion-linear-icon%2Fdrop-down-43.html&docid=0C3I8MMzwhUY-M&tbnid=59h6ky77zzl9iM&vet=12ahUKEwjsho-cnIyLAxUucGwGHW37AmMQM3oECCsQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwjsho-cnIyLAxUucGwGHW37AmMQM3oECCsQAA);
+    background-size: 15px;
+
+}
